@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_root" android:tag="layout/row_shop_grid_banner_0" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_4sdp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_row_shop_banner" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" android:contentDescription="@string/description" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="1:1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:shapeAppearance="@style/CurvedRoundedCornerCard3Percent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

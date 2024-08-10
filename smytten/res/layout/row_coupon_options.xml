@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/root" android:tag="layout/row_coupon_options_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/_8sdp" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/iv_checkbox_selected" android:tag="binding_1" android:layout_width="@dimen/_25sdp" android:layout_height="@dimen/_25sdp" android:layout_marginLeft="@dimen/_4sdp" app:layout_constraintDimensionRatio="1:1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/iv_option" android:tag="binding_2" android:padding="@dimen/_5sdp" android:layout_width="@dimen/_25sdp" android:layout_height="@dimen/_25sdp" app:layout_constraintDimensionRatio="1:1" app:layout_constraintStart_toEndOf="@id/iv_checkbox_selected" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="@color/colorPrimaryDark" android:ellipsize="end" android:id="@id/tv_coupon_option_title" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_4sdp" android:maxLines="3" android:fontFamily="@font/proxima_nova_reg" />
+            <TextView android:textSize="12.0sp" android:textStyle="italic" android:textColor="@color/text_green" android:ellipsize="end" android:id="@id/tv_coupon_option_applied" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_4sdp" android:text="Applied " android:maxLines="3" android:fontFamily="@font/proxima_nova_reg" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_4sdp">
+            <TextView android:textSize="22.0sp" android:textColor="@color/colorPrimaryDark" android:ellipsize="end" android:id="@id/tv_coupon_option_discount" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="@font/proxima_nova_reg" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/colorPrimaryDark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DISCOUNT" android:fontFamily="@font/proxima_nova_light" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/devider" android:layout_width="fill_parent" android:layout_height="0.30000007dip" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/expandedRootView" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/collapsedRootView" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_collapsed_view_height">
+        <include android:id="@id/headerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/moe_rich_push_header_offset" android:layout_marginStart="@dimen/moe_rich_push_header_offset" layout="@layout/moe_rich_push_header_view" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/moe_rich_push_header_offset" android:layout_below="@id/headerView" android:layout_marginStart="@dimen/moe_rich_push_header_offset">
+            <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MoERichPushNotificationTitleStyle" />
+            <TextView android:ellipsize="end" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MoERichPushNotificationMessageStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/moe_rich_push_manual_carousel_card" />
+</LinearLayout>

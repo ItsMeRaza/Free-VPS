@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/dialog_order_pending_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/rl_toolbar" android:tag="binding_1" android:background="@color/off_white" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/iv_close" android:padding="@dimen/_10sdp" android:layout_width="@dimen/actionbar_height" android:layout_height="fill_parent" android:src="@drawable/ic_search_close" android:contentDescription="@string/description" app:tint="@color/white" />
+            <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/tv_title" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="?actionBarSize" android:layout_marginRight="?actionBarSize" android:layout_centerInParent="true" android:textAllCaps="true" android:fontFamily="@font/proxima_nova_reg" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/wv_data" android:paddingBottom="@dimen/_100sdp" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_process" android:tag="binding_3" android:layout_width="@dimen/_80sdp" android:layout_height="@dimen/_80sdp" android:layout_marginTop="@dimen/_30sdp" android:contentDescription="@string/description" />
+            <TextView android:textSize="22.0sp" android:textColor="@color/colorPrimaryDark" android:id="@id/tv_header" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_20sdp" android:fontFamily="@font/proxima_nova_reg" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/colorPrimaryDark" android:gravity="center" android:id="@id/tv_subheader" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_10sdp" android:fontFamily="@font/proxima_nova_reg" />
+        </LinearLayout>
+    </LinearLayout>
+    <include android:id="@id/ll_loader" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/loader_layout" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/cl_banner_root" android:tag="layout/item_luxe_pdv_video_view_0" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="@dimen/_6sdp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_banner_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" app:layout_constraintDimensionRatio="2:2" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:shapeAppearance="@style/CurvedRoundedCornerCard6Percent" />
+    <ImageView android:id="@id/iv_play_pause" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/description" app:layout_constraintBottom_toBottomOf="@id/iv_banner_view" app:layout_constraintEnd_toEndOf="@id/iv_banner_view" app:layout_constraintStart_toStartOf="@id/iv_banner_view" app:layout_constraintTop_toTopOf="@id/iv_banner_view" app:srcCompat="@drawable/ic_video_play" />
+</androidx.constraintlayout.widget.ConstraintLayout>

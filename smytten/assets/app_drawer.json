@@ -1,0 +1,257 @@
+{
+  "content": {
+    "position": null,
+    "header": [
+      {
+        "id": "1",
+        "title": "My Orders",
+        "subtitle": "",
+        "tint": "#DBEBFE",
+        "deeplink": "https://smytten.com/?type=11",
+        "icon": "https://smytten-image.gumlet.io/shop_store/1703239971_Page-1.png",
+        "event": {
+          "name": "hamburger_option_click",
+          "params": [
+            {
+              "key": "section_visit",
+              "value": "orders"
+            }
+          ]
+        }
+      },
+      {
+        "id": "11",
+        "title": "Help Center",
+        "subtitle": "",
+        "tint": "#DCF0DD",
+        "deeplink": "https://smytten.com/contact-us",
+        "icon": "https://smytten-image.gumlet.io/shop_store/1703239990_Page-2.png",
+        "priority": 2,
+        "event": {
+          "name": "hamburger_option_click",
+          "params": [
+            {
+              "key": "section_visit",
+              "value": "need help"
+            }
+          ]
+        }
+      }
+    ],
+    "footer_image": "",
+    "footer": [
+      {
+        "id": "14",
+        "title": "Privacy Policy",
+        "subtitle": "",
+        "tint": "#DCF0DD",
+        "deeplink": "https://smytten.com/?type=28&isToolbar=true&title=Privacy%20Policy&url=https://smytten.com/privacy-policy.html",
+        "icon": "https://smytten-image.s3.ap-southeast-1.amazonaws.com/shop_store/1700629968_policy.png",
+        "priority": 2,
+        "event": {
+          "name": "hamburger_option_click",
+          "params": [
+            {
+              "key": "section_visit",
+              "value": "privacy policy"
+            }
+          ]
+        }
+      },
+      {
+        "id": "15",
+        "title": "Terms & Condition",
+        "subtitle": "",
+        "tint": "#DCF0DD",
+        "deeplink": "https://smytten.com/?type=28&isToolbar=true&title=Terms%20&%20Conditions&url=https://smytten.com/terms-of-use.html",
+        "icon": "https://smytten-image.s3.ap-southeast-1.amazonaws.com/shop_store/1700629776_t%26C.png",
+        "priority": 2,
+        "event": {
+          "name": "hamburger_option_click",
+          "params": [
+            {
+              "key": "section_visit",
+              "value": "terms & conditions"
+            }
+          ]
+        }
+      },
+      {
+        "id": "13",
+        "title": "Browse FAQs",
+        "subtitle": "",
+        "tint": "#DCF0DD",
+        "deeplink": "https://smytten.com/?type=28&isToolbar=true&title=FAQ&url=https://smytten.com/web/faq_new.htm",
+        "icon": "https://smytten-image.s3.ap-southeast-1.amazonaws.com/shop_store/1700629942_FAQ.png",
+        "priority": 2,
+        "event": {
+          "name": "hamburger_option_click",
+          "params": [
+            {
+              "key": "section_visit",
+              "value": "FAQ"
+            }
+          ]
+        }
+      }
+    ],
+    "menu": [
+      {
+        "id": "-1",
+        "title": "EARN REWARDS"
+      },
+      {
+        "id": "2",
+        "title": "Refer and Earn",
+        "subtitle": "",
+        "tint": "#DCF0DD",
+        "deeplink": "https://smytten.com/?type=10",
+        "banner": "https://smytten-image.gumlet.io/shop_store/1703747595_Refer%20%26%20Earn.png",
+        "banner_ratio": 4.9,
+        "icon": "https://smytten-image.s3.ap-southeast-1.amazonaws.com/shop_store/1700629538_refer_earn.png",
+        "event": {
+          "name": "hamburger_option_click",
+          "params": [
+            {
+              "key": "section_visit",
+              "value": "referral"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4",
+        "title": "Leave a review",
+        "subtitle": "",
+        "tint": "#DCF0DD",
+        "deeplink": "https://smytten.com/?type=32",
+        "icon": "https://smytten-image.gumlet.io/shop_store/1703239635_My%20Reviews_1.png",
+        "event": {
+          "name": "hamburger_option_click",
+          "params": [
+            {
+              "key": "section_visit",
+              "value": "reviews"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6",
+        "title": "Take a survey",
+        "subtitle": "",
+        "tint": "#DCF0DD",
+        "deeplink": "https://smytten.com/?type=32&section=survey",
+        "icon": "https://smytten-image.gumlet.io/shop_store/1703239606_Survey.png",
+        "event": {
+          "name": "hamburger_option_click",
+          "params": [
+            {
+              "key": "section_visit",
+              "value": "reviews"
+            }
+          ]
+        }
+      },
+      {
+        "id": "-1",
+        "title": "ACCOUNT SPECIFIC DETAILS"
+      },
+      {
+        "id": "12",
+        "title": "My Saved Address",
+        "subtitle": "",
+        "tint": "#DCF0DD",
+        "deeplink": "https://smytten.com/address-list",
+        "icon": "https://smytten-image.s3.ap-southeast-1.amazonaws.com/shop_store/1700629651_location.png",
+        "priority": 2,
+        "event": {
+          "name": "hamburger_option_click",
+          "params": [
+            {
+              "key": "section_visit",
+              "value": "shipping address"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3",
+        "title": "My Wishlist",
+        "subtitle": "",
+        "tint": "#DCF0DD",
+        "deeplink": "https://smytten.com/wishlist",
+        "icon": "https://smytten-image.s3.ap-southeast-1.amazonaws.com/shop_store/1700629626_wishlist.png",
+        "event": {
+          "name": "hamburger_option_click",
+          "params": [
+            {
+              "key": "section_visit",
+              "value": "wishlist"
+            }
+          ]
+        }
+      },
+      {
+        "id": "-1",
+        "title": "OTHERS"
+      },
+      {
+        "id": "7",
+        "title": "Smytten Luxe",
+        "subtitle": "",
+        "tint": "#DCF0DD",
+        "deeplink": "https://smytten.com/?type=50",
+        "icon": "https://smytten-image.s3.ap-southeast-1.amazonaws.com/shop_store/1700629682_Lux.png",
+        "icon_end": "https://smytten-image.s3.ap-southeast-1.amazonaws.com/shop_store/1700630842_ic_luxe_new.png",
+        "event": {
+          "name": "hamburger_option_click",
+          "params": [
+            {
+              "key": "section_visit",
+              "value": ""
+            }
+          ]
+        }
+      },
+      {
+        "id": "5",
+        "title": "Smytten Blog",
+        "subtitle": "New Reads",
+        "tint": "#DCF0DD",
+        "deeplink": "https://smytten.com/?type=28&isToolbar=true&title=Blog&url=https://blog.smytten.com",
+        "icon": "https://smytten-image.s3.ap-southeast-1.amazonaws.com/shop_store/1700629711_Blog%28New%29.png",
+        "event": {
+          "name": "hamburger_option_click",
+          "params": [
+            {
+              "key": "section_visit",
+              "value": "blog"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6",
+        "title": "Rate Smytten",
+        "subtitle": "",
+        "tint": "",
+        "deeplink": "https://smytten.com/?type=48&url=https://onelink.to/smytten",
+        "icon": "https://smytten-image.s3.ap-southeast-1.amazonaws.com/shop_store/1700629758_rate.png",
+        "event": {
+          "name": "hamburger_option_click",
+          "params": [
+            {
+              "key": "section_visit",
+              "value": "rate app"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "response": {
+    "error": 0,
+    "message": "Success"
+  }
+}

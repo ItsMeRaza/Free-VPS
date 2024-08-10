@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">ancillary-stage.smytten.com</domain>
+        <domain includeSubdomains="true">web-staging.smytten.com</domain>
+        <domain includeSubdomains="true">ad-prod.smytten.com</domain>
+        <domain includeSubdomains="true">ad-staging.smytten.com</domain>
+        <domain includeSubdomains="true">webgcp-staging.smytten.com</domain>
+        <domain includeSubdomains="true">product.smytten.com</domain>
+        <domain includeSubdomains="true">34.100.164.251</domain>
+        <domain includeSubdomains="true">3.111.234.202</domain>
+        <domain includeSubdomains="true">ip-api.com</domain>
+    </domain-config>
+</network-security-config>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@id/cv_rating" android:tag="layout/shop_product_detail_rating_include_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_12sdp" app:cardCornerRadius="@dimen/_18sdp" app:cardElevation="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/_12sdp" android:layout_marginTop="@dimen/_16sdp" android:layout_marginRight="@dimen/_12sdp" android:layout_marginBottom="@dimen/_16sdp" android:layout_marginHorizontal="@dimen/_12sdp" android:layout_marginVertical="@dimen/_16sdp">
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/ll_avrg_rate1" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_4sdp" app:layout_constraintBottom_toTopOf="@id/divider_feat" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/iv_bulb_rate" android:padding="@dimen/_1sdp" android:layout_width="@dimen/_20sdp" android:layout_height="fill_parent" android:src="@drawable/ic_rating_star" android:layout_marginEnd="@dimen/_2sdp" app:layout_constraintBottom_toBottomOf="@id/tv_avrg_rate1" app:layout_constraintDimensionRatio="1:1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/tv_avrg_rate1" />
+            <TextView android:textSize="@dimen/_18ssp" android:textColor="@color/colorPrimaryDark" android:id="@id/tv_avrg_rate1" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="@font/inter_bold" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="@dimen/_18ssp" android:textColor="@color/colorPrimaryDark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/5" android:includeFontPadding="false" android:fontFamily="@font/inter_bold" app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+        <View android:id="@id/divider_feat" android:tag="binding_3" android:background="@color/text_color_ed" android:layout_width="0.0dip" android:layout_height="@dimen/_2sdp" android:layout_marginTop="@dimen/_6sdp" android:layout_marginBottom="@dimen/_6sdp" android:layout_marginEnd="@dimen/_28sdp" android:layout_marginVertical="@dimen/_6sdp" app:layout_constraintBottom_toTopOf="@id/ll_avrg_rate2" app:layout_constraintEnd_toStartOf="@id/tb_rating" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ll_avrg_rate1" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_avrg_rate2" android:tag="binding_4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/_4sdp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/divider_feat">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/_16ssp" android:textColor="@color/bg_selector" android:id="@id/tv_avrg_rate2" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="@font/inter_bold" />
+                <ImageView android:id="@id/iv_people_rate" android:padding="@dimen/_1sdp" android:layout_width="@dimen/_20sdp" android:layout_height="@dimen/_20sdp" android:src="@drawable/baseline_people_24" android:layout_marginStart="@dimen/_3sdp" app:tint="@color/bg_selector" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/_10sdp" android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/_0sdp" android:text="verified ratings" android:fontFamily="@font/inter_semibold" android:textAlignment="center" />
+        </LinearLayout>
+        <TableLayout android:id="@id/tb_rating" android:tag="binding_6" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_percent="0.62">
+            <TableRow android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_2sdp" android:layout_weight="1.0">
+                <TextView android:text="5 Star" style="@style/RatingTextViewNew" />
+                <ProgressBar android:tag="binding_7" android:layout_width="0.0dip" android:layout_height="8.0dip" android:progressDrawable="@drawable/rating_review_rounded_progress" android:layout_weight="4.0" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+                <TextView android:gravity="end" android:tag="binding_8" style="@style/RatingTextViewNew" />
+            </TableRow>
+            <TableRow android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_2sdp" android:layout_weight="1.0">
+                <TextView android:text="4 Star" style="@style/RatingTextViewNew" />
+                <ProgressBar android:tag="binding_9" android:layout_width="0.0dip" android:layout_height="8.0dip" android:progressDrawable="@drawable/rating_review_rounded_progress" android:layout_weight="4.0" style="?android:progressBarStyleHorizontal" />
+                <TextView android:gravity="end" android:tag="binding_10" style="@style/RatingTextViewNew" />
+            </TableRow>
+            <TableRow android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_2sdp" android:layout_weight="1.0">
+                <TextView android:text="3 Star" style="@style/RatingTextViewNew" />
+                <ProgressBar android:tag="binding_11" android:layout_width="0.0dip" android:layout_height="8.0dip" android:progressDrawable="@drawable/rating_review_rounded_progress" android:layout_weight="4.0" style="?android:progressBarStyleHorizontal" />
+                <TextView android:gravity="end" android:tag="binding_12" style="@style/RatingTextViewNew" />
+            </TableRow>
+            <TableRow android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_2sdp" android:layout_weight="1.0">
+                <TextView android:text="2 Star" style="@style/RatingTextViewNew" />
+                <ProgressBar android:tag="binding_13" android:layout_width="0.0dip" android:layout_height="8.0dip" android:progressDrawable="@drawable/rating_review_rounded_progress" android:layout_weight="4.0" style="?android:progressBarStyleHorizontal" />
+                <TextView android:gravity="end" android:tag="binding_14" style="@style/RatingTextViewNew" />
+            </TableRow>
+            <TableRow android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_2sdp" android:layout_weight="1.0">
+                <TextView android:text="1 Star" style="@style/RatingTextViewNew" />
+                <ProgressBar android:tag="binding_15" android:layout_width="0.0dip" android:layout_height="8.0dip" android:progressDrawable="@drawable/rating_review_rounded_progress" android:layout_weight="4.0" style="?android:progressBarStyleHorizontal" />
+                <TextView android:gravity="end" android:tag="binding_16" style="@style/RatingTextViewNew" />
+            </TableRow>
+        </TableLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

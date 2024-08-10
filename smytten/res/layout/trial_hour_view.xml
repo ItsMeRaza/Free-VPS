@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cl_surprise" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:background="@color/colorPrimaryDark20" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/_6ssp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_app_icon" android:layout_width="@dimen/_25sdp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_5sdp" android:text="⬤⬤⬤" android:letterSpacing="0.15" />
+        <TextView android:textSize="@dimen/_10ssp" android:textColor="@color/white" android:id="@id/tv_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Smytten  ·" android:fontFamily="@font/lato_regular" android:layout_marginStart="@dimen/_4sdp" />
+        <TextView android:textSize="@dimen/_10ssp" android:textColor="@color/white" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/lato_regular" android:layout_marginStart="@dimen/_4sdp" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/cl_product_title1">
+        <ImageView android:id="@id/iv_surprise" android:padding="@dimen/_4sdp" android:layout_width="@dimen/_25sdp" android:layout_height="@dimen/_25sdp" android:src="@drawable/ic_surprise" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/_13ssp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/title" android:paddingTop="@dimen/_2sdp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="@font/lato_regular" android:layout_marginStart="@dimen/_4sdp" />
+            <TextView android:textSize="@dimen/_9ssp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/text" android:paddingBottom="@dimen/_2sdp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="@font/lato_light" android:layout_marginStart="@dimen/_4sdp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="end" android:orientation="vertical" android:id="@id/ll_surprise_cta" android:paddingLeft="@dimen/_3sdp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/_20ssp" android:textColor="@color/white" android:id="@id/tv_close" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="  × " android:fontFamily="@font/lato_regular" />
+            <TextView android:textSize="@dimen/_16ssp" android:textColor="@color/white" android:id="@id/tv_surprise_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00:00" android:fontFamily="@font/lato_regular" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

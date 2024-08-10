@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/ll_root" android:tag="layout/quiz_answer_row_bg_0" android:background="@drawable/quiz_selector_h" android:paddingLeft="@dimen/_2sdp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_4sdp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_key" android:layout_width="@dimen/_25sdp" android:layout_height="@dimen/_25sdp" android:layout_margin="@dimen/_6sdp" />
+    <TextView android:textSize="@dimen/_12ssp" android:textColor="@color/colorPrimaryDark" android:ellipsize="end" android:id="@id/tv_key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_9sdp" android:layout_marginRight="@dimen/_14sdp" android:layout_marginBottom="@dimen/_9sdp" android:maxLines="1" android:fontFamily="@font/proxima_nova_bold" app:layout_constraintTop_toTopOf="parent" />
+</LinearLayout>

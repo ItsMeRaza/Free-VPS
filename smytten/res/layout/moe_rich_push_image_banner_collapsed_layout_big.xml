@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/collapsedRootView" android:layout_width="fill_parent" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:id="@id/card" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/horizontalCenterCropImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="100.0dip" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/horizontalFitCenterImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/verticalImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+        <include android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/moe_rich_push_image_banner_margin_bottom" android:layout_marginStart="@dimen/moe_rich_push_image_banner_horizontal_margin" layout="@layout/moe_rich_push_image_banner_header_layout_big" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="end" android:id="@id/closeButton" android:padding="@dimen/moe_rich_push_close_button_padding" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/moe_rich_push_close_button_dimension" android:layout_height="@dimen/moe_rich_push_close_button_dimension" android:layout_marginTop="@dimen/moe_rich_push_close_button_spacing" android:src="@drawable/moe_rich_push_dark_cross" android:layout_marginEnd="@dimen/moe_rich_push_close_button_spacing" />
+</FrameLayout>

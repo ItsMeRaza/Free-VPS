@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rel_lyt" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip">
+            <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Testing" android:maxLines="1" style="@style/TextAppearance.Compat.Notification.Title" />
+            <TextView android:textSize="13.0sp" android:ellipsize="end" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Testing is awesome " android:maxLines="3" style="@style/TextAppearance.Compat.Notification.Line2" />
+            <TextView android:textSize="14.0sp" android:ellipsize="end" android:id="@id/text2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Testing is awesome " android:maxLines="10" style="@style/TextAppearance.Compat.Notification.Line2" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/image_pic" android:layout_width="fill_parent" android:layout_height="@dimen/_135sdp" android:layout_marginTop="6.0dip" android:scaleType="centerCrop" android:layout_below="@id/rel_lyt" />
+</LinearLayout>

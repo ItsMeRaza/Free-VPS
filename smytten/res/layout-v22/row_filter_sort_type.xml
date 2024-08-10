@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/row_filter_sort_type_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:layout_gravity="center" android:id="@id/ll_product_filter" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.5">
+            <ImageView android:id="@id/iv_filter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_16sdp" android:layout_marginRight="@dimen/_16sdp" android:src="@drawable/ic_filter_apply" android:contentDescription="@string/description" android:layout_marginHorizontal="@dimen/_16sdp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:id="@id/iv_filter_applied" android:tag="binding_1" android:layout_width="@dimen/_8sdp" android:layout_height="@dimen/_8sdp" android:src="@drawable/round_black" android:contentDescription="@string/description" app:layout_constraintBottom_toTopOf="@id/iv_filter" app:layout_constraintEnd_toEndOf="@id/iv_filter" app:layout_constraintStart_toEndOf="@id/iv_filter" app:layout_constraintTop_toTopOf="@id/iv_filter" app:tint="@color/bg_selector" />
+            <TextView android:textColor="@color/text_dark_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_12sdp" android:layout_marginRight="@dimen/_12sdp" android:text="@string/filters_n_sort" android:fontFamily="@font/inter_medium" android:layout_marginHorizontal="@dimen/_12sdp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/iv_filter" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/ll_product_sort" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0">
+            <ImageView android:layout_width="@dimen/_12sdp" android:layout_height="@dimen/_12sdp" android:src="@drawable/ic_upside_down_arrow" android:contentDescription="@string/description" app:tint="@color/text_dark_gray" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/text_dark_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_5sdp" android:text="Sort" android:fontFamily="@font/inter_medium" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/ll_view_type" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5">
+            <ImageView android:id="@id/iv_type_grid" android:tag="binding_2" android:padding="@dimen/_10sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/description" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/iv_type_list" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:id="@id/iv_type_list" android:tag="binding_3" android:padding="@dimen/_10sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/description" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

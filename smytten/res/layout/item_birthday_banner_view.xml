@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/cl_banner_root" android:tag="layout/item_birthday_banner_view_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_6sdp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_banner_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitXY" app:layout_constraintDimensionRatio="5:2" app:layout_constraintTop_toTopOf="parent" app:shapeAppearance="@style/CurvedRoundedCornerCard8Percent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

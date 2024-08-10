@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation app:startDestination="@id/refer_friend_not_invited_tab" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:label="not invited" android:name="com.app.smytten.ui.home.mvvm.reward.invite.ReferFriendNotInvitedFragment" android:id="@id/refer_friend_not_invited_tab" />
+    <fragment android:label="pending" android:name="com.app.smytten.ui.home.mvvm.reward.invite.ReferFriendPendingFragment" android:id="@id/refer_pending_tab" />
+    <fragment android:label="complete" android:name="com.app.smytten.ui.home.mvvm.reward.invite.ReferFriendSuccessFragment" android:id="@id/refer_success_tab" />
+    <fragment android:label="complete" android:name="com.app.smytten.ui.home.mvvm.reward.invite.ReferFriendPermissionFragment" android:id="@id/refer_permission_tab" />
+</navigation>

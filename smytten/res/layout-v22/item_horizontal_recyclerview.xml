@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_horizontal" android:tag="layout/item_horizontal_recyclerview_0" android:paddingLeft="@dimen/_6sdp" android:paddingTop="@dimen/_4sdp" android:paddingRight="@dimen/_6sdp" android:paddingBottom="@dimen/_4sdp" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingHorizontal="@dimen/_6sdp" android:paddingVertical="@dimen/_4sdp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

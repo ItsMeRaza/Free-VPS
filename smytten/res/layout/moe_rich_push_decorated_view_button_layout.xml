@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/actionButton1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/moe_rich_push_decorated_view_button_height_layout" android:textAllCaps="false" android:layout_marginEnd="@dimen/moe_rich_push_action_button_margin_right_layout_big" style="@style/MoERichPushNotification.ActionButtonStyle.DecoratedView" />
+    <Button android:id="@id/actionButton2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/moe_rich_push_decorated_view_button_height_layout" android:textAllCaps="false" android:layout_marginEnd="@dimen/moe_rich_push_action_button_margin_right_layout_big" style="@style/MoERichPushNotification.ActionButtonStyle.DecoratedView" />
+    <Button android:id="@id/closeButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/moe_rich_push_decorated_view_button_height_layout" android:text="@string/moe_rich_push_dismiss_button" android:textAllCaps="false" style="@style/MoERichPushNotification.ActionButtonStyle.DecoratedView.Dismiss" />
+</LinearLayout>

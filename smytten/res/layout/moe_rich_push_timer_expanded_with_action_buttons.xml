@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/expandedRootView" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/moe_rich_push_timer_content_base_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/card" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/horizontalCenterCropImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_decorated_view_with_button_image_height_layout_big" android:layout_marginTop="@dimen/moe_rich_push_timer_image_margin_top" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/horizontalFitCenterImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_decorated_view_with_button_image_height_layout_big" android:layout_marginTop="@dimen/moe_rich_push_timer_image_margin_top" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/verticalImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_decorated_view_with_button_image_height_layout_big" android:layout_marginTop="@dimen/moe_rich_push_timer_image_margin_top" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/moe_rich_push_decorated_view_button_layout" />
+    </LinearLayout>
+</LinearLayout>

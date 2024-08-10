@@ -1,0 +1,38 @@
+.class public abstract Lcom/app/smytten/databinding/PopupTextBinding;
+.super Landroidx/databinding/ViewDataBinding;
+.source "PopupTextBinding.java"
+
+
+# instance fields
+.field public final tvPopupText:Landroid/widget/TextView;
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+.end field
+
+
+# direct methods
+.method protected constructor <init>(Ljava/lang/Object;Landroid/view/View;ILandroid/widget/TextView;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0,
+            0x0,
+            0x0
+        }
+        names = {
+            "_bindingComponent",
+            "_root",
+            "_localFieldCount",
+            "tvPopupText"
+        }
+    .end annotation
+
+    .line 22
+    invoke-direct {p0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
+
+    .line 23
+    iput-object p4, p0, Lcom/app/smytten/databinding/PopupTextBinding;->tvPopupText:Landroid/widget/TextView;
+
+    return-void
+.end method

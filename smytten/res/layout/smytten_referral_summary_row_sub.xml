@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_root" android:tag="layout/smytten_referral_summary_row_sub_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_header" android:layout_width="fill_parent" android:layout_height="@dimen/_45sdp" app:layout_constraintTop_toTopOf="parent">
+        <RelativeLayout android:layout_width="@dimen/_35sdp" android:layout_height="fill_parent">
+            <View android:id="@id/v_top_dotted" android:background="@drawable/bg_dotted_line" android:layout_width="fill_parent" android:layout_height="@dimen/_16sdp" android:layout_above="@id/v_center" android:layout_alignParentTop="true" android:rotation="90.0" />
+            <View android:id="@id/v_bottom_dotted" android:background="@drawable/bg_dotted_line" android:layout_width="fill_parent" android:layout_height="@dimen/_16sdp" android:layout_below="@id/v_center" android:layout_alignParentBottom="true" android:rotation="90.0" />
+            <View android:id="@id/v_center" android:background="@color/white" android:padding="@dimen/_4sdp" android:layout_width="@dimen/_8sdp" android:layout_height="@dimen/_8sdp" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/iv_status_tick" android:padding="@dimen/_4sdp" android:layout_width="@dimen/_20sdp" android:layout_height="@dimen/_20sdp" android:src="@drawable/ic_progress_thumb_tick_trans" android:layout_centerInParent="true" android:contentDescription="@string/description" app:tint="@color/red" />
+            <ImageView android:id="@id/iv_complete" android:visibility="gone" android:layout_width="@dimen/_30sdp" android:layout_height="@dimen/_30sdp" android:src="@drawable/ic_coupon_progress_h" android:layout_centerInParent="true" android:contentDescription="@string/description" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/_5sdp" android:paddingBottom="@dimen/_5sdp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/iv_smytten_cash" android:visibility="gone" android:layout_width="@dimen/_10sdp" android:layout_height="@dimen/_12sdp" android:layout_marginRight="@dimen/_1sdp" android:src="@drawable/ic_smytten_cash_symbol" android:contentDescription="@string/description" />
+                <TextView android:textSize="@dimen/_9ssp" android:textColor="@color/colorPrimaryDark" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Installed" android:fontFamily="@font/inter_bold" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/_9ssp" android:textColor="@color/text_color_88" android:id="@id/tv_subtitle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="20 June, 2021" android:fontFamily="@font/inter_medium" />
+            <TextView android:textSize="@dimen/_7ssp" android:textColor="@color/text_desc" android:id="@id/tv_expiry" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fontFamily="@font/inter_regular" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/_3sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_6sdp">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_expire" android:paddingTop="@dimen/_2sdp" android:visibility="gone" android:layout_width="@dimen/_12sdp" android:layout_height="@dimen/_12sdp" android:src="@drawable/ic_expire_soon" android:contentDescription="@string/description" />
+                <TextView android:textSize="@dimen/_10ssp" android:textColor="@color/black" android:id="@id/tv_amount_title" android:paddingTop="@dimen/_2sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="@font/inter_bold" android:layout_marginStart="@dimen/_1sdp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_referral_cash" />
+                <ImageView android:id="@id/iv_amount_symbol" android:layout_width="@dimen/_12sdp" android:layout_height="@dimen/_12sdp" android:src="@drawable/ic_smytten_cash_symbol" android:contentDescription="@string/description" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/_9ssp" android:textColor="@color/grass_green" android:id="@id/tv_right_subtitle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text=" Credited" android:fontFamily="@font/inter_bold" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/v_devider" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

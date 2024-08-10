@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:tag="layout/frg_faq_policy_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/include_appbar" layout="@layout/include_appbar_toolbar" />
+    <com.app.smytten.widget.LollipopFixedWebView android:id="@id/wv_data" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:overScrollMode="never" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/include_appbar" />
+    <TextView android:gravity="center" android:id="@id/tv_error" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/include_appbar" style="@style/ErrorText" />
+    <include android:id="@id/ll_loader" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/include_appbar" layout="@layout/loader_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

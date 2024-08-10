@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/ll_root" android:tag="layout/app_popup_trials_row_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_6sdp" app:cardCornerRadius="@dimen/_2sdp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/_100sdp" android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="@dimen/_110sdp" android:foreground="?android:selectableItemBackground" app:cardCornerRadius="@dimen/_2sdp" app:cardElevation="@dimen/_3sdp" app:layout_constraintDimensionRatio="7.56:10" app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/bg_new_trial" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/iv_root_app_popup_trial_row" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/_11ssp" android:textColor="@color/colorPrimaryDark" android:gravity="center" android:id="@id/tv_root_app_popup_trial_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_4sdp" android:text="BEAUTY &amp; GROOMIMG" android:maxLines="2" android:minLines="2" android:fontFamily="@font/lato_semibold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <TextView android:textSize="@dimen/_12ssp" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/tv_root_app_popup_trial_row_count" android:background="#ff088068" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="@dimen/_30sdp" android:layout_marginTop="@dimen/_minus2sdp" android:text="239 Trials" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="@font/inter_medium" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/contentHolder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_toStartOf="@id/chronometerLayout" android:layout_alignParentStart="true">
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MoERichPushNotification.TitleStyle.Big" />
+        <TextView android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MoERichPushNotification.MessageStyle.Big" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/chronometerLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/contentHolder" android:layout_marginStart="@dimen/moe_rich_push_timer_content_holder_margin_end" android:layout_alignParentEnd="true">
+        <ImageView android:layout_gravity="end" android:id="@id/largeIcon" android:visibility="gone" android:layout_width="@dimen/moe_rich_push_large_icon_dimension_layout_big" android:layout_height="@dimen/moe_rich_push_large_icon_dimension_layout_big" android:scaleType="centerCrop" />
+        <Chronometer android:id="@id/moEChronometer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/moe_rich_push_timer_chronometer_top" style="@style/MoERichPushNotificationChronometerStyle" />
+    </FrameLayout>
+</RelativeLayout>

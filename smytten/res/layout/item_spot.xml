@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/item_spot_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_4sdp" android:foreground="?android:selectableItemBackground" app:cardBackgroundColor="@android:color/white" app:cardCornerRadius="@dimen/_2sdp" app:cardElevation="2.0dip" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingBottom="@dimen/_8sdp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/item_image" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" app:layout_constraintDimensionRatio="20:23" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView android:textSize="@dimen/_12sdp" android:textColor="@color/black" android:ellipsize="end" android:id="@id/item_title" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:maxLines="1" android:fontFamily="@font/proxima_nova_light" />
+            <TextView android:textSize="@dimen/_15sdp" android:textColor="@color/black" android:ellipsize="end" android:gravity="center" android:id="@id/item_subtitle" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_2sdp" android:maxLines="1" android:fontFamily="@font/inter_semibold" />
+            <TextView android:textSize="@dimen/_12sdp" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_read_shop" android:tag="binding_4" android:padding="@dimen/_6sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/proxima_nova_light" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/left_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/right_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/top_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/bottom_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

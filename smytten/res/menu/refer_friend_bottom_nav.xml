@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/home_tab_trial_selector" android:id="@id/refer_friend_not_invited_tab" android:title="not_invited" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/home_tab_reward_selector" android:id="@id/refer_pending_tab" android:title="pending" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/home_tab_reward_selector" android:id="@id/refer_success_tab" android:title="success" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/home_tab_reward_selector" android:id="@id/refer_permission_tab" android:title="permission" app:showAsAction="ifRoom" />
+</menu>

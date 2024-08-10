@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>test_key</key>
+        <value>this is key</value>
+    </entry>
+    <entry>
+        <key>key_is_guest_accessible_test</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>key_is_facebook_accessible_test</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>key_is_guest_accessible</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>key_is_facebook_accessible</key>
+        <value>true</value>
+    </entry>
+</defaultsMap>

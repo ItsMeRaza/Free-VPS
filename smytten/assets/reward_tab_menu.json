@@ -1,0 +1,36 @@
+{
+  "content": [
+    {
+      "id": 0,
+      "name": "Home",
+      "deeplink": "https://smytten.com/?type=36",
+      "selected_image": "https://smytten-image.s3.ap-southeast-1.amazonaws.com/shop_store/1706761079_ic_reward12.png",
+      "regular_image": "https://smytten-image.s3.ap-southeast-1.amazonaws.com/shop_store/1706761054_ic_reward11.png"
+    },
+    {
+      "id": 1,
+      "name": "Earn",
+      "deeplink": "https://smytten.com/?type=18",
+      "selected_image": "https://smytten-image.s3.ap-southeast-1.amazonaws.com/shop_store/1706761125_ic_reward22.png",
+      "regular_image": "https://smytten-image.s3.ap-southeast-1.amazonaws.com/shop_store/1706761121_ic_reward21.png"
+    },
+    {
+      "id": 3,
+      "name": "History",
+      "deeplink": "https://smytten.com/?type=16",
+      "selected_image": "https://smytten-image.s3.ap-southeast-1.amazonaws.com/shop_store/1706761170_ic_reward42.png",
+      "regular_image": "https://smytten-image.s3.ap-southeast-1.amazonaws.com/shop_store/1706761165_ic_reward41.png"
+    },
+    {
+      "id": 2,
+      "name": "Redeem",
+      "deeplink": "https://smytten.com/?type=19",
+      "selected_image": "https://smytten-image.s3.ap-southeast-1.amazonaws.com/shop_store/1706761161_ic_reward32.png",
+      "regular_image": "https://smytten-image.s3.ap-southeast-1.amazonaws.com/shop_store/1706761156_ic_reward31.png"
+    }
+  ],
+  "response": {
+    "error": 0,
+    "message": "Success"
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@android:anim/accelerate_decelerate_interpolator" android:duration="100" android:valueFrom="M 20 13 L 25 13" android:valueTo="M 19.042 17.56 L 17.958 22.441" android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="30" android:valueFrom="#ff0f1628" android:valueTo="#00000000" android:valueType="colorType" android:propertyName="strokeColor" />
+</set>

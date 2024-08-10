@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/ll_menu_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="14.0sp" android:textColor="@color/colorPrimaryDark" android:id="@id/tv_menu_title" android:padding="@dimen/_11sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/proxima_nova_light" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/colorPrimaryDark" android:id="@id/tv_menu_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_minus7sdp" android:fontFamily="@font/inter_regular" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+    <ImageView android:id="@id/iv_arrow" android:layout_width="0.0dip" android:layout_height="10.0dip" android:layout_marginRight="@dimen/_10sdp" android:src="@drawable/ic_arrow_sub" app:layout_constraintBottom_toBottomOf="@id/ll_menu_title" app:layout_constraintDimensionRatio="10:17" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/ll_menu_title" />
+    <View android:background="@color/devider" android:layout_width="fill_parent" android:layout_height="0.30000007dip" app:layout_constraintTop_toBottomOf="@id/ll_menu_title" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_menu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintTop_toBottomOf="@id/ll_menu_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

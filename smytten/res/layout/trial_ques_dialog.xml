@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/_12sdp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/_14sdp" android:textColor="@color/black" android:id="@id/titleTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_2sdp" android:text="@string/app_name" android:fontFamily="@font/inter_medium" />
+    <TextView android:textSize="@dimen/_12sdp" android:textColor="@color/colorPrimaryDark" android:gravity="start" android:autoLink="web" android:linksClickable="true" android:id="@id/subtitleTextsView" android:paddingTop="@dimen/_6sdp" android:paddingBottom="@dimen/_12sdp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_2sdp" android:maxLines="20" android:fontFamily="@font/inter_regular" />
+    <com.app.smytten.widget.LollipopFixedWebView android:id="@id/wv_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_2sdp">
+        <TextView android:textSize="@dimen/_12sdp" android:textColor="@color/black" android:gravity="center" android:id="@id/cancelButton" android:paddingLeft="@dimen/_12sdp" android:paddingTop="@dimen/_6sdp" android:paddingRight="@dimen/_12sdp" android:paddingBottom="@dimen/_6sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no" android:fontFamily="@font/inter_medium" />
+        <TextView android:textSize="@dimen/_12sdp" android:textColor="@color/black" android:gravity="center" android:id="@id/okButton" android:paddingLeft="@dimen/_12sdp" android:paddingTop="@dimen/_6sdp" android:paddingRight="@dimen/_12sdp" android:paddingBottom="@dimen/_6sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yes" android:fontFamily="@font/inter_medium" />
+    </LinearLayout>
+</LinearLayout>

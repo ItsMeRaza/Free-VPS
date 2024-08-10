@@ -1,0 +1,42 @@
+.class public interface abstract Lkotlin/reflect/KMutableProperty0;
+.super Ljava/lang/Object;
+.source "KProperty.kt"
+
+# interfaces
+.implements Lkotlin/reflect/KProperty0;
+.implements Lkotlin/reflect/KProperty;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lkotlin/reflect/KMutableProperty0$Setter;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lkotlin/reflect/KProperty0<",
+        "TV;>;",
+        "Lkotlin/reflect/KProperty;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract getSetter()Lkotlin/reflect/KMutableProperty0$Setter;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/reflect/KMutableProperty0$Setter<",
+            "TV;>;"
+        }
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end method

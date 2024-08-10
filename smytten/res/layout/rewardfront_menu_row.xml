@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_root" android:tag="layout/rewardfront_menu_row_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center_horizontal" android:id="@id/cl_root" android:layout_width="wrap_content" android:layout_height="@dimen/_80sdp">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_circle_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" app:layout_constraintDimensionRatio="140:190" app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

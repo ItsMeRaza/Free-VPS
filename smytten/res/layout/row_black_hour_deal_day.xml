@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/row_black_hour_deal_day_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:orientation="vertical" android:id="@id/ll_root_row_anchor_collection" android:layout_width="@dimen/_240sdp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_8sdp" android:layout_marginTop="@dimen/_6sdp" android:layout_marginRight="@dimen/_8sdp" android:layout_marginBottom="@dimen/_6sdp">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_image" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/iv_anchor_collection" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" app:layout_constraintDimensionRatio="295:258" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <View android:id="@id/v_bottom" android:layout_width="@dimen/dimen_1dp" android:layout_height="@dimen/_10sdp" app:layout_constraintBottom_toBottomOf="@id/iv_anchor_collection" app:layout_constraintStart_toStartOf="parent" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_offer" android:background="@drawable/rounded_corner_dark_8dp" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/v_bottom">
+                <FrameLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_anchor_collection_offer" android:padding="@dimen/_3sdp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/_14ssp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_anchor_collection_offer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_6sdp" android:maxLines="1" android:fontFamily="@font/lato_bold" />
+                    <TextView android:textSize="@dimen/_8ssp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_anchor_collection_sub_offer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_6sdp" android:layout_marginTop="@dimen/_20sdp" android:layout_marginBottom="@dimen/_3sdp" android:maxLines="1" android:fontFamily="@font/lato_regular" />
+                </FrameLayout>
+                <TextView android:textSize="@dimen/_11ssp" android:textColor="@color/white" android:id="@id/tv_anchor_collection_offer_shop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/_2sdp" android:fontFamily="@font/proxima_nova_semibold" />
+                <ImageView android:padding="@dimen/_2sdp" android:layout_width="@dimen/_15sdp" android:layout_height="@dimen/_15sdp" android:layout_marginRight="@dimen/_3sdp" android:src="@drawable/ic_double_arrow_thin" app:tint="@color/white" />
+            </LinearLayout>
+            <LinearLayout android:background="#ff575757" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/cl_image" app:layout_constraintEnd_toEndOf="@id/cl_image" app:layout_constraintStart_toStartOf="@id/cl_image" app:layout_constraintTop_toBottomOf="@id/ll_offer">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/_6sdp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/_12ssp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/tv_anchor_collection_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:minLines="2" android:fontFamily="@font/inter_semibold" />
+                    <TextView android:textSize="@dimen/_9ssp" android:textColor="@color/text_color_ba" android:ellipsize="end" android:gravity="center" android:id="@id/tv_anchor_collection_subtitle" android:paddingBottom="@dimen/_3sdp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="@font/inter_regular" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

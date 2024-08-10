@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/expandedRootView" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/moe_rich_push_stylized_basic_expanded_layout_decorated_style" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/moe_rich_push_decorated_style_expanded_cards_padding" android:paddingEnd="@dimen/moe_rich_push_decorated_style_expanded_cards_padding">
+        <FrameLayout android:id="@id/card" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/centerCropImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_decorated_style_expanded_image_height" android:layout_marginTop="@dimen/moe_rich_push_decorated_style_expanded_image_margin_top" android:scaleType="centerCrop" />
+            <ImageView android:id="@id/centerInsideImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_decorated_style_expanded_image_height" android:layout_marginTop="@dimen/moe_rich_push_decorated_style_expanded_image_margin_top" android:scaleType="centerInside" />
+            <ImageView android:layout_gravity="start|center" android:id="@id/arrowLeft" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/moe_rich_push_decorated_style_carousel_controller_size" android:layout_height="@dimen/moe_rich_push_decorated_style_carousel_controller_size" android:src="@drawable/moe_rich_push_arrow_left" style="@style/MoERichPushNotificationCarouselController" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/arrowRight" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/moe_rich_push_decorated_style_carousel_controller_size" android:layout_height="@dimen/moe_rich_push_decorated_style_carousel_controller_size" android:src="@drawable/moe_rich_push_arrow_right" style="@style/MoERichPushNotificationCarouselController" />
+            <include android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/moe_rich_push_decorated_style_carousel_marker_margin" layout="@layout/moe_rich_push_decorated_style_marker_layout" />
+        </FrameLayout>
+        <Button android:id="@id/closeButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/moe_rich_push_decorated_style_action_button_height" android:text="@string/moe_rich_push_dismiss_button" android:textAllCaps="false" style="@style/MoERichPushNotification.DecoratedStyle.ActionButton.Dismiss" />
+    </LinearLayout>
+</LinearLayout>

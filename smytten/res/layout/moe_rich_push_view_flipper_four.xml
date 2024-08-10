@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper android:id="@id/viewFlipper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inAnimation="@anim/moe_rich_push_right_to_left_in" android:outAnimation="@anim/moe_rich_push_right_to_left_out" android:flipInterval="@integer/moe_rich_push_flip_interval" android:autoStart="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/card41" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/horizontalCenterCropImage41" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_big_picture_image_height" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/horizontalFitCenterImage41" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_big_picture_image_height" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/verticalImage41" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_big_picture_image_height" />
+        <include android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/moe_rich_push_marker_offset" layout="@layout/moe_rich_push_marker_four_image_position_one" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/card42" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/horizontalCenterCropImage42" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_big_picture_image_height" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/horizontalFitCenterImage42" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_big_picture_image_height" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/verticalImage42" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_big_picture_image_height" />
+        <include android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/moe_rich_push_marker_offset" layout="@layout/moe_rich_push_marker_four_image_position_two" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/card43" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/horizontalCenterCropImage43" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_big_picture_image_height" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/horizontalFitCenterImage43" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_big_picture_image_height" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/verticalImage43" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_big_picture_image_height" />
+        <include android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/moe_rich_push_marker_offset" layout="@layout/moe_rich_push_marker_four_image_position_three" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/card44" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/horizontalCenterCropImage44" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_big_picture_image_height" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/horizontalFitCenterImage44" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_big_picture_image_height" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/verticalImage44" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_big_picture_image_height" />
+        <include android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/moe_rich_push_marker_offset" layout="@layout/moe_rich_push_marker_four_image_position_four" />
+    </FrameLayout>
+</ViewFlipper>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/activity_recyclerview_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_toolbar" android:background="@color/off_white" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height">
+        <TextView android:textSize="17.0sp" android:textColor="@color/black" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="?actionBarSize" android:layout_marginRight="?actionBarSize" android:layout_centerInParent="true" android:textAllCaps="true" android:fontFamily="@font/proxima_nova_reg" />
+        <ImageView android:id="@id/iv_close" android:background="?android:selectableItemBackground" android:padding="@dimen/_10sdp" android:layout_width="@dimen/actionbar_height" android:layout_height="fill_parent" android:src="@drawable/ic_back" />
+    </RelativeLayout>
+    <FrameLayout android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_list" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <include android:id="@id/ll_loader" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/loader_layout" />
+        <View android:background="@drawable/toolbar_shadow" android:layout_width="fill_parent" android:layout_height="5.0dip" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:id="@id/tv_error" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ErrorText" />
+    </FrameLayout>
+</LinearLayout>

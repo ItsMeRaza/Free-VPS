@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_anchor_category" android:tag="layout/row_anchor_category_0" android:layout_width="@dimen/_120sdp" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/_6sdp" android:foreground="?android:selectableItemBackground" app:cardCornerRadius="@dimen/_6sdp" app:cardElevation="@dimen/_3sdp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="3:2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/iv_anchor_category" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_6sdp" android:layout_marginRight="@dimen/_6sdp">
+        <TextView android:textSize="@dimen/_12ssp" android:textColor="@color/colorPrimaryDark" android:ellipsize="end" android:gravity="center" android:id="@id/tv_anchor_category_title" android:layout_width="fill_parent" android:layout_height="@dimen/_36sdp" android:maxLines="2" android:fontFamily="@font/lato_light" />
+    </LinearLayout>
+    <View android:layout_gravity="center" android:id="@id/v_arrow" android:background="@drawable/ic_triangle" android:visibility="invisible" android:layout_width="@dimen/_22sdp" android:layout_height="@dimen/_6sdp" android:layout_marginTop="@dimen/_2sdp" app:layout_constraintBottom_toBottomOf="parent" />
+    <View android:id="@id/v_arrow_line" android:background="@color/colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="@dimen/_1sdp" app:layout_constraintBottom_toBottomOf="parent" />
+</LinearLayout>

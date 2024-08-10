@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:tag="layout/item_help_request_image_preview_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_4sdp" app:cardElevation="0.0dip" app:strokeColor="@color/grey" app:strokeWidth="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_delivered_issue_product" android:layout_width="?actionBarSize" android:layout_height="?actionBarSize" android:layout_marginLeft="@dimen/_4sdp" android:layout_marginTop="@dimen/_8sdp" android:layout_marginRight="@dimen/_4sdp" android:layout_marginBottom="@dimen/_8sdp" app:shapeAppearanceOverlay="@style/CurvedRoundedCornerCard" app:strokeColor="@color/grey" app:strokeWidth="1.0dip" />
+    <com.google.android.material.imageview.ShapeableImageView android:layout_gravity="end|center|top" android:id="@id/iv_remove_selected_image" android:layout_width="@dimen/icon_size" android:layout_height="@dimen/icon_size" app:srcCompat="@drawable/ic_close_circle_black" />
+</com.google.android.material.card.MaterialCardView>

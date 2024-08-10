@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/expandedRootView" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/collapsedRootView" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/moe_rich_push_stylized_basic_expanded_layout_big" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/card" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/horizontalCenterCropImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_big_picture_image_height" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/horizontalFitCenterImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_big_picture_image_height" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/verticalImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_big_picture_image_height" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="150" android:startOffset="300" android:valueFrom="#ffffffff" android:valueTo="#ff489cff" android:valueType="colorType" android:propertyName="fillColor" />
+    <objectAnimator android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="150" android:startOffset="300" android:valueFrom="#ff000000" android:valueTo="#ff489cff" android:valueType="colorType" android:propertyName="strokeColor" />
+</set>

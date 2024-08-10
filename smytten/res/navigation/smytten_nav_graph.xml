@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation app:startDestination="@id/trail_home_tab"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/trials" android:name="com.app.smytten.ui.home.front.TrialHomeTab" android:id="@id/trail_home_tab" />
+    <fragment android:label="@string/shop" android:name="com.app.smytten.ui.home.front.ShopHomeTab" android:id="@id/shop_home_tab" />
+    <fragment android:label="@string/rewards" android:name="com.app.smytten.ui.home.mvvm.reward.RewardHomeTab" android:id="@id/reward_home_tab" />
+    <fragment android:label="@string/profile" android:name="com.app.smytten.ui.profile.ProfileFragment" android:id="@id/profile_home_tab" />
+</navigation>

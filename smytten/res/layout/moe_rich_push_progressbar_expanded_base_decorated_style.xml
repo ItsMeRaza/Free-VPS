@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MoERichPushNotification.DecoratedStyle.Expanded.TextAppearance.Title" />
+    <RelativeLayout android:id="@id/chronometerLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/moe_rich_push_decorated_style_progressbar_expanded_chronometer_margin_top">
+        <ProgressBar android:id="@id/moEProgressbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/moe_rich_push_timer_with_progress_bar_progressbar_height" android:indeterminate="false" android:progressDrawable="@drawable/moe_rich_push_progress_bar" android:layout_centerVertical="true" android:layout_toStartOf="@id/moEChronometer" android:layout_alignParentStart="true" style="?android:progressBarStyleHorizontal" />
+        <Chronometer android:id="@id/moEChronometer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/moe_rich_push_decorated_style_timer_collapsed_chronometer_margin_start" android:layout_alignParentEnd="true" style="@style/MoERichPushNotificationChronometerDecoratedStyle" />
+    </RelativeLayout>
+</LinearLayout>

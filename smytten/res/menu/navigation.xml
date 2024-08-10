@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/home_tab_trial_selector" android:enabled="true" android:title="Trials" app:showAsAction="collapseActionView" />
+    <item android:icon="@drawable/home_tab_shop_selector" android:enabled="true" android:title="Shop" app:showAsAction="collapseActionView" />
+    <item android:icon="@drawable/home_tab_reward_selector" android:enabled="true" android:title="Reward" app:showAsAction="collapseActionView" />
+</menu>

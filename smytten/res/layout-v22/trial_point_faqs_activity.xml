@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/trial_point_faqs_activity_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/include_appbar" layout="@layout/include_appbar_toolbar" />
+    <FrameLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview" android:paddingBottom="@dimen/_24ssp" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <TextView android:id="@id/tv_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ErrorText" />
+        <include android:id="@id/ll_loader" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/loader_layout" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:id="@id/tv_terms" android:background="@drawable/ripple_background_blue" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/_10sdp" android:layout_height="@dimen/_12sdp" android:src="@drawable/ic_doc_terms" android:contentDescription="@string/description" app:tint="@color/white" />
+        <TextView android:textSize="@dimen/_13ssp" android:textColor="@color/white" android:paddingTop="@dimen/_12sdp" android:paddingBottom="@dimen/_12sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_4sdp" android:layout_marginRight="@dimen/_4sdp" android:text="Terms &amp; Conditions" android:fontFamily="@font/inter_regular" android:layout_marginHorizontal="@dimen/_4sdp" />
+    </LinearLayout>
+</LinearLayout>

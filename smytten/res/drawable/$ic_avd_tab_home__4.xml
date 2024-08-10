@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@android:anim/accelerate_decelerate_interpolator" android:duration="150" android:startOffset="150" android:valueFrom="M 14 26 C 14 24.895 14.895 24 16 24 C 17.105 24 18 24.895 18 26 L 18 30 L 14 30 L 14 26 Z" android:valueTo="M 14.471 21.885 C 14.211 20.811 14.87 19.73 15.944 19.471 C 17.017 19.211 18.098 19.87 18.358 20.944 L 19.3 24.831 L 15.412 25.773 L 14.471 21.885 Z" android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@android:anim/accelerate_decelerate_interpolator" android:duration="300" android:startOffset="300" android:valueFrom="M 14.471 21.885 C 14.211 20.811 14.87 19.73 15.944 19.471 C 17.017 19.211 18.098 19.87 18.358 20.944 L 19.3 24.831 L 15.412 25.773 L 14.471 21.885 Z" android:valueTo="M 14 27 C 14 25.895 14.895 25 16 25 C 17.105 25 18 25.895 18 27 L 18 32 L 14 32 L 14 27 Z" android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@android:anim/accelerate_decelerate_interpolator" android:duration="300" android:startOffset="300" android:valueFrom="#00000000" android:valueTo="#ffffffff" android:valueType="colorType" android:propertyName="fillColor" />
+    <objectAnimator android:interpolator="@android:anim/accelerate_decelerate_interpolator" android:duration="300" android:startOffset="300" android:valueFrom="#ff000000" android:valueTo="#ffffffff" android:valueType="colorType" android:propertyName="strokeColor" />
+</set>

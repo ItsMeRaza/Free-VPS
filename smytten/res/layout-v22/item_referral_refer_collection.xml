@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/item_referral_refer_collection_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/_14ssp" android:textColor="@color/colorPrimaryDark" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_12sdp" android:fontFamily="@font/inter_bold" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_12sdp" android:layout_marginRight="@dimen/_12sdp" android:minHeight="@dimen/_100sdp" android:layout_marginHorizontal="@dimen/_12sdp">
+        <ImageView android:id="@id/bg_reward_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/_25sdp" android:contentDescription="@string/description" app:layout_constraintDimensionRatio="330:310" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_product" android:layout_width="fill_parent" android:layout_height="0.0dip" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.app.smytten.widget.dotindicator.ScrollingPagerIndicator android:layout_gravity="center" android:id="@id/indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_8sdp" style="@style/IndicatorDot" />
+</LinearLayout>

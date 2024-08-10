@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/row_search_brand_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_root_search_brand" android:layout_width="@dimen/_90sdp" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/_90sdp">
+            <androidx.cardview.widget.CardView android:id="@id/cv_product_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/_6sdp" android:foreground="?android:selectableItemBackground" app:cardCornerRadius="@dimen/_3sdp" app:cardElevation="@dimen/_3sdp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <ImageView android:id="@id/iv_row_search_brand" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_product_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_4sdp" android:layout_marginRight="@dimen/_4sdp" android:layout_marginBottom="@dimen/_6sdp" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:textSize="@dimen/_10ssp" android:textColor="@color/black_80" android:ellipsize="end" android:id="@id/tv_search_brand_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="@font/proxima_nova_semibold" />
+            <TextView android:textSize="@dimen/_8ssp" android:textColor="@color/text_green" android:ellipsize="end" android:gravity="center" android:id="@id/tv_search_brand_offer_text" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="@font/proxima_nova_reg" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

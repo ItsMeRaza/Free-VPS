@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation app:startDestination="@id/reward_home_tab"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="Home" android:name="com.app.smytten.ui.home.mvvm.reward.RewardFrontFragment" android:id="@id/reward_home_tab" />
+    <fragment android:label="Earn" android:name="com.app.smytten.ui.home.mvvm.reward.RewardHomeEarnFragment" android:id="@id/reward_earn_tab" />
+    <fragment android:label="Redeem" android:name="com.app.smytten.ui.home.mvvm.reward.history.RewardRedeemCatalogFragment" android:id="@id/reward_redeem_tab" />
+    <fragment android:label="History" android:name="com.app.smytten.ui.home.mvvm.reward.history.RewardHomeHistoryTab" android:id="@id/reward_history_tab" />
+    <fragment android:label="Voucher" android:name="com.app.smytten.ui.home.mvvm.reward.history.RewardRedeemCouponFragment" android:id="@id/reward_voucher_tab" />
+</navigation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_root" android:tag="layout/item_luxe_header_recyclerview_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/nest_header" layout="@layout/item_luxe_header_list" />
+    <include android:id="@id/nest_rv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_8sdp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/nest_header" layout="@layout/item_luxe_recyclerview_indicator" />
+</androidx.constraintlayout.widget.ConstraintLayout>
