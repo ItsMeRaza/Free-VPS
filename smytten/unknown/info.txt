@@ -1,7 +1,0 @@
-name: Singular-v12.5.3-8509b145.master
-env: release
-git_commit: 8509b145
-git_branch: master
-version_name: 12.5.3
-version_code:1
-build_date: Thu, 22 Feb 2024 18:34:03 +0200
