@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView android:id="@id/cv_root" android:tag="layout/carts_offer_detail_row_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_1sdp" android:layout_marginTop="@dimen/_2sdp" android:layout_marginRight="@dimen/_1sdp" android:layout_marginBottom="@dimen/_2sdp" android:elevation="@dimen/_0sdp" android:layout_marginHorizontal="@dimen/_1sdp" android:layout_marginVertical="@dimen/_2sdp" app:cardCornerRadius="@dimen/_8sdp" app:cardElevation="@dimen/_0sdp"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_payment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_4sdp" android:layout_marginTop="@dimen/_2sdp" android:layout_marginRight="@dimen/_4sdp" android:layout_marginBottom="@dimen/_2sdp" android:layout_marginHorizontal="@dimen/_4sdp" android:layout_marginVertical="@dimen/_2sdp">
-        <ImageView android:id="@id/iv_payment_info" android:padding="@dimen/_3sdp" android:layout_width="@dimen/_20sdp" android:layout_height="@dimen/_20sdp" android:contentDescription="@string/description" app:srcCompat="@drawable/ic_wallet_offer" />
-        <TextView android:textSize="@dimen/_9ssp" android:id="@id/tv_payment_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/inter_semibold" android:layout_marginStart="@dimen/_4sdp" />
-    </LinearLayout>
-</com.google.android.material.card.MaterialCardView>

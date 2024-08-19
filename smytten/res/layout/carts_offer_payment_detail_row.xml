@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_payment" android:tag="layout/carts_offer_payment_detail_row_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/iv_payment_info" android:padding="4.0dip" android:layout_width="@dimen/_18sdp" android:layout_height="@dimen/_18sdp" android:layout_marginTop="@dimen/_2sdp" android:layout_marginBottom="@dimen/_2sdp" android:contentDescription="@string/description" android:layout_marginStart="@dimen/_2sdp" app:srcCompat="@drawable/ic_wallet_offer" />
-    <TextView android:textSize="@dimen/_9ssp" android:id="@id/tv_payment_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/inter_semibold" />
-</LinearLayout>

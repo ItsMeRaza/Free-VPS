@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_root" android:tag="layout/order_cancel_row_reason_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/cl_card" android:tag="binding_1" android:background="@drawable/bg_order_cancel_reason" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/_4sdp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="276:231" app:layout_constraintTop_toTopOf="parent">
-        <TextView android:textSize="@dimen/_11ssp" android:gravity="center" android:id="@id/tv_reason" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="NOT\nAVAILABLE" android:maxLines="2" android:fontFamily="@font/inter_medium" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>

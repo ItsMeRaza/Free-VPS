@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/cl_banner_root" android:tag="layout/trial_banner_view_0" android:layout_width="@dimen/_242sdp" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_banner_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/_6sdp" android:scaleType="fitXY" app:layout_constraintDimensionRatio="300:150" app:layout_constraintTop_toTopOf="parent" />
-    <ImageView android:id="@id/iv_sponsored" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="@dimen/_16sdp" android:layout_margin="@dimen/_12sdp" android:src="@drawable/ic_ads" android:contentDescription="@string/description" app:layout_constraintDimensionRatio="35:23" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="@dimen/_12ssp" android:textColor="@color/black" android:ellipsize="end" android:gravity="center" android:id="@id/tv_label" android:tag="layout/item_empty_data_label_0" android:background="@color/white" android:padding="@dimen/_12sdp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="20" android:fontFamily="@font/inter_regular"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

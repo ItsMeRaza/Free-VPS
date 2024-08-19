@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:tag="layout/item_subcategory_chip_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.material.chip.Chip android:textSize="14.0sp" android:textColor="@color/primary_color_selector_inverted_white" android:id="@id/cp_subcategory" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkable="true" android:fontFamily="@font/inter_regular" app:checkedIcon="@null" app:chipBackgroundColor="@color/primary_color_selector" app:chipEndPadding="@dimen/_10sdp" app:chipStartPadding="@dimen/_10sdp" app:chipStrokeWidth="0.0dip" style="?chipStyle" />
-    <com.google.android.material.chip.Chip android:textSize="@dimen/_9ssp" android:textColor="@color/primary_redeem_selector_inverted_white" android:id="@id/cp_redeem" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkable="true" android:fontFamily="@font/inter_semibold" android:layout_marginStart="@dimen/_8sdp" app:checkedIcon="@null" app:chipEndPadding="@dimen/_8sdp" app:chipStartPadding="@dimen/_8sdp" app:chipStrokeWidth="0.6dip" style="?chipStyle" />
-</LinearLayout>

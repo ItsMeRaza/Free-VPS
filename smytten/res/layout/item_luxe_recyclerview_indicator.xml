@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/cl_root" android:tag="layout/item_luxe_recyclerview_indicator_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <include android:id="@id/nest_rv" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" layout="@layout/item_horizontal_recyclerview" />
-    <com.app.smytten.widget.dotindicator.ScrollingRectPagerIndicator android:layout_gravity="center" android:id="@id/indicator_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_4dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/nest_rv" app:spi_dotColor="@color/text_color_dd" app:spi_dotSelectedSize="15.0dip" app:spi_dotSize="14.0dip" style="@style/IndicatorDot" />
-</androidx.constraintlayout.widget.ConstraintLayout>

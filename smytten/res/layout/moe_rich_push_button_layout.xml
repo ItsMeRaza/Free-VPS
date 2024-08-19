@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Button android:id="@id/actionButton1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_button_height" android:layout_weight="0.5" android:textAllCaps="false" style="@style/MoERichPushActionButtonStyle" />
-    <Button android:id="@id/actionButton2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_button_height" android:layout_weight="0.5" android:textAllCaps="false" style="@style/MoERichPushActionButtonStyle" />
-</LinearLayout>

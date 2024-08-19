@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.textview.MaterialTextView android:textSize="@dimen/_12ssp" android:textColor="@color/text_color_88" android:gravity="center" android:id="@id/tv_tooltip" android:tag="layout/row_tv_rating_count_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="0" android:includeFontPadding="true" android:fontFamily="@font/inter_medium" android:textAlignment="center"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

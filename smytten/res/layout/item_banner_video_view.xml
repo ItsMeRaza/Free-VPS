@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/cl_banner_root" android:tag="layout/item_banner_video_view_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/cl_banner_main" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="5:4" app:layout_constraintTop_toTopOf="parent">
-        <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_banner_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitCenter" app:layout_constraintBottom_toTopOf="@id/v_images_padding" app:layout_constraintTop_toTopOf="parent" />
-        <ImageView android:id="@id/iv_play_pause" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/description" app:layout_constraintBottom_toTopOf="@id/v_images_padding" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_video_play" />
-        <View android:id="@id/v_images_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp" app:layout_constraintBottom_toBottomOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>

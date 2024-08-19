@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/expandedRootView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:clipToOutline="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/moe_rich_push_stylized_basic_expanded_layout_decorated_style" />
-    <LinearLayout android:orientation="vertical" android:id="@id/card" android:paddingBottom="@dimen/moe_rich_push_decorated_style_expanded_cards_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/moe_rich_push_decorated_style_expanded_cards_padding" android:paddingEnd="@dimen/moe_rich_push_decorated_style_expanded_cards_padding">
-        <ImageView android:id="@id/centerCropImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_decorated_style_expanded_image_height_without_cta" android:layout_marginTop="@dimen/moe_rich_push_decorated_style_expanded_image_margin_top" android:scaleType="centerCrop" android:clipToOutline="true" />
-        <ImageView android:id="@id/centerInsideImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_decorated_style_expanded_image_height_without_cta" android:layout_marginTop="@dimen/moe_rich_push_decorated_style_expanded_image_margin_top" android:scaleType="centerInside" />
-    </LinearLayout>
-</LinearLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/expandedRootView" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MoERichPushNotificationDecoratedStyleExpandedLayout"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/moe_rich_push_progressbar_expanded_base_decorated_style" />
-    <LinearLayout android:orientation="vertical" android:id="@id/card" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <ImageView android:id="@id/centerCropImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_decorated_style_expanded_image_height_without_cta" android:layout_marginTop="@dimen/moe_rich_push_decorated_style_expanded_image_margin_top" android:scaleType="centerCrop" android:clipToOutline="true" />
-        <ImageView android:id="@id/centerInsideImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/moe_rich_push_decorated_style_expanded_image_height_without_cta" android:layout_marginTop="@dimen/moe_rich_push_decorated_style_expanded_image_margin_top" android:scaleType="centerInside" />
-    </LinearLayout>
-</LinearLayout>

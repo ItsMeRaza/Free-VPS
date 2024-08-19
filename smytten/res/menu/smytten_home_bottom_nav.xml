@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:icon="@drawable/home_tab_trial_selector" android:id="@id/trail_home_tab" android:title="@string/discover" app:showAsAction="always" />
-    <item android:icon="@drawable/home_tab_shop_selector" android:id="@id/shop_home_tab" android:title="@string/shop" app:showAsAction="always" />
-    <item android:icon="@drawable/home_tab_reward_selector" android:id="@id/reward_home_tab" android:title="@string/rewards" app:showAsAction="always" />
-    <item android:icon="@drawable/home_tab_profile_selector" android:id="@id/profile_home_tab" android:title="@string/account" app:showAsAction="always" />
-</menu>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/item_help_ticket_product_issue_solution_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8sdp"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.google.android.material.radiobutton.MaterialRadioButton android:ellipsize="end" android:id="@id/rb_product_issue_solution" android:background="@drawable/rounded_corner_border_10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:textAllCaps="false" style="?radioButtonStyle" />
-</FrameLayout>

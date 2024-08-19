@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <bool name="moeIsLand">true</bool>
-    <bool name="moeIsTablet">false</bool>
-</resources>

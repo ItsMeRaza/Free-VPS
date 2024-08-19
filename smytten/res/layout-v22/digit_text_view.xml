@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/currentTextView" android:paddingTop="@dimen/_2sdp" android:paddingBottom="@dimen/_2sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/inter_semibold" android:paddingVertical="@dimen/_2sdp" />
-    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/nextTextView" android:paddingTop="@dimen/_2sdp" android:paddingBottom="@dimen/_2sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/inter_semibold" android:paddingVertical="@dimen/_2sdp" />
-</FrameLayout>

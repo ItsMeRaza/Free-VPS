@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<set
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <objectAnimator android:interpolator="@android:anim/accelerate_decelerate_interpolator" android:duration="100" android:valueFrom="M 11 8.625 L 13.72 13 L 18.199 13 L 21 8.553 C 21 8.553 15.64 7.262 11 8.625 Z" android:valueTo="M 11 12.625 L 13.72 17 L 18.199 17 L 21 12.553 C 21 12.553 15.64 11.262 11 12.625 Z" android:valueType="pathType" android:propertyName="pathData" />
-    <objectAnimator android:interpolator="@android:anim/accelerate_decelerate_interpolator" android:duration="100" android:startOffset="100" android:valueFrom="M 11 12.625 L 13.72 17 L 18.199 17 L 21 12.553 C 21 12.553 15.64 11.262 11 12.625 Z" android:valueTo="M 11 5.625 L 13.72 10 L 18.199 10 L 21 5.553 C 21 5.553 15.64 4.262 11 5.625 Z" android:valueType="pathType" android:propertyName="pathData" />
-    <objectAnimator android:interpolator="@android:anim/accelerate_decelerate_interpolator" android:duration="300" android:startOffset="400" android:valueFrom="#ff000000" android:valueTo="#ff17a0fb" android:valueType="colorType" android:propertyName="fillColor" />
-    <objectAnimator android:interpolator="@android:anim/accelerate_decelerate_interpolator" android:duration="300" android:startOffset="400" android:valueFrom="M 11 5.625 L 13.72 10 L 18.199 10 L 21 5.553 C 21 5.553 15.64 4.262 11 5.625 Z" android:valueTo="M 11 7.625 L 13.72 12 L 18.199 12 L 21 7.553 C 21 7.553 15.64 6.262 11 7.625 Z" android:valueType="pathType" android:propertyName="pathData" />
-    <objectAnimator android:interpolator="@android:anim/accelerate_decelerate_interpolator" android:duration="300" android:startOffset="400" android:valueFrom="#ff0f1628" android:valueTo="#00000000" android:valueType="colorType" android:propertyName="strokeColor" />
-</set>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar_layout" android:tag="layout/include_appbar_toolbar_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" app:layout_constraintTop_toTopOf="parent" app:layout_scrollFlags="scroll|enterAlways|snap"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <include android:id="@id/include_toolbar" layout="@layout/activity_toolbar" />
-</com.google.android.material.appbar.AppBarLayout>

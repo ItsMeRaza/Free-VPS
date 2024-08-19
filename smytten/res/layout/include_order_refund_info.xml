@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView android:id="@id/cv_refund_info" android:tag="layout/include_order_refund_info_0" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/light_green" app:cardElevation="0.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textAppearance="?textAppearanceCaption" android:textStyle="bold" android:textColor="@color/green_coupon" android:id="@id/tv_refund_amount" android:paddingTop="@dimen/_4sdp" android:paddingBottom="@dimen/_4sdp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/_8sdp" android:layout_marginTop="@dimen/_4sdp" android:layout_marginRight="@dimen/_8sdp" android:layout_marginBottom="@dimen/_4sdp" android:text="@string/refund_has_been_processed_for_you" android:maxLines="2" />
-</com.google.android.material.card.MaterialCardView>

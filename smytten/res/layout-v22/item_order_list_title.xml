@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/item_order_list_title_0" android:background="@color/pale_white" android:paddingLeft="@dimen/dimen_16dp" android:paddingRight="@dimen/dimen_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dimen_16dp"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="?textAppearanceHeadline6" android:textSize="18.0sp" android:textStyle="bold" android:ellipsize="end" android:id="@id/tv_my_orders_title" android:paddingTop="@dimen/_8sdp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/previous_orders" android:maxLines="2" android:minLines="1" android:layout_marginEnd="@dimen/_8sdp" android:letterSpacing="0.0" />
-</FrameLayout>

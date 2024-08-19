@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<animated-vector android:drawable="@drawable/$ic_avd_tab_home__0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <target android:name="border" android:animation="@drawable/$ic_avd_tab_home__1" />
-    <target android:name="roofbg" android:animation="@drawable/$ic_avd_tab_home__2" />
-    <target android:name="roof" android:animation="@drawable/$ic_avd_tab_home__3" />
-    <target android:name="door" android:animation="@drawable/$ic_avd_tab_home__4" />
-</animated-vector>

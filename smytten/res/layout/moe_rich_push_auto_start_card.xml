@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/card11" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/moe_rich_push_single_image" />
-    <include android:id="@id/viewFlipperTwo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/moe_rich_push_view_flipper_two" />
-    <include android:id="@id/viewFlipperThree" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/moe_rich_push_view_flipper_three" />
-    <include android:id="@id/viewFlipperFour" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/moe_rich_push_view_flipper_four" />
-    <include android:id="@id/viewFlipperFive" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/moe_rich_push_view_flipper_five" />
-</LinearLayout>

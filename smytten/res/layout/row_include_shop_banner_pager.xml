@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_banner" android:tag="layout/row_include_shop_banner_pager_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/NonClickableCard"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_shop_banner" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:layout_constraintTop_toTopOf="parent" />
-    <com.app.smytten.widget.dotindicator.ScrollingPagerIndicator android:layout_gravity="center" android:id="@id/indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_4sdp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/rv_shop_banner" style="@style/IndicatorDot" />
-</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/appInfo" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center" android:id="@id/smallIcon" android:layout_width="@dimen/moe_rich_push_small_icon_width_layout_big" android:layout_height="@dimen/moe_rich_push_small_icon_height_layout_big" android:layout_marginEnd="@dimen/moe_rich_push_small_icon_margin_end_layout_big" />
-    <TextView android:layout_gravity="center" android:id="@id/appName" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MoERichPushNotification.HeaderTextStyle.Big" />
-    <ImageView android:layout_gravity="center" android:id="@id/separatorTime" android:layout_width="4.0dip" android:layout_height="4.0dip" android:layout_marginStart="@dimen/moe_rich_push_header_separator_spacing_layout_big" android:layout_marginEnd="@dimen/moe_rich_push_header_separator_spacing_layout_big" />
-    <TextView android:layout_gravity="center" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginEnd="@dimen/moe_rich_push_header_view_spacing" style="@style/MoERichPushNotification.HeaderTextStyle.Big" />
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/moe_rich_push_image_indicator_background_color" />
-    <corners android:topLeftRadius="@dimen/moe_rich_push_marker_background_radius" android:topRightRadius="@dimen/moe_rich_push_marker_background_radius" android:bottomLeftRadius="@dimen/moe_rich_push_marker_background_radius" android:bottomRightRadius="@dimen/moe_rich_push_marker_background_radius" />
-</shape>

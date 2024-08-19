@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<animated-selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_checked="true" android:id="@id/state_profile_on" android:drawable="@drawable/ic_home_tab_profile_h" />
-    <item android:id="@id/state_profile_off" android:drawable="@drawable/ic_home_tab_profile" android:color="@color/bottom_nav_grey" />
-    <transition android:drawable="@drawable/ic_avd_tab_profile" android:toId="@id/state_profile_on" android:fromId="@id/state_profile_off" />
-</animated-selector>

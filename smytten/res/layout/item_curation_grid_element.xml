@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/item_curation_grid_element_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.material.card.MaterialCardView android:id="@id/cv_root_grid" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_4sdp" app:cardElevation="@dimen/_1sdp" app:shapeAppearanceOverlay="@style/CurvedRoundedCornerCard2Percent">
-        <include android:id="@id/cl_curation_element_root" layout="@layout/item_curation_standard_element_include" />
-    </com.google.android.material.card.MaterialCardView>
-</FrameLayout>

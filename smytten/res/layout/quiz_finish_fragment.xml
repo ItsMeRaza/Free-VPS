@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/quiz_finish_fragment_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="@dimen/_20ssp" android:textColor="@color/colorPrimaryDark" android:gravity="center" android:id="@id/tv_loader" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Calculating results.." android:fontFamily="@font/lato_regular" app:layout_constraintBottom_toTopOf="@id/ll_loader" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
-    <com.airbnb.lottie.LottieAnimationView android:id="@id/ll_loader" android:layout_width="@dimen/_200sdp" android:layout_height="@dimen/_200sdp" android:layout_margin="@dimen/_8sdp" android:layout_centerInParent="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_loader" app:lottie_autoPlay="true" app:lottie_fileName="ic_quiz_loader.json" app:lottie_loop="true" />
-</androidx.constraintlayout.widget.ConstraintLayout>

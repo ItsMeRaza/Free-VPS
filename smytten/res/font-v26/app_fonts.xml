@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<font-family
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <font android:fontFamily="@font/inter_regular" android:font="@font/inter_regular" android:fontWeight="400" android:fontStyle="normal" app:font="@font/inter_regular" app:fontFamily="@font/inter_regular" app:fontStyle="normal" app:fontWeight="400" />
-    <font android:fontFamily="@font/inter_bold" android:font="@font/inter_bold" android:fontWeight="800" android:fontStyle="normal" app:font="@font/inter_bold" app:fontFamily="@font/inter_bold" app:fontStyle="normal" app:fontWeight="800" />
-</font-family>
