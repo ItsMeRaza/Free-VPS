@@ -1,0 +1,69 @@
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.csproj.GenerateResource.cache
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.AssemblyInfoInputs.cache
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.AssemblyInfo.cs
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.csproj.CoreCompileInputs.cache
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.csproj.AssemblyReference.cache
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.L0gin.resources
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.MainUi.resources
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\UIDBypass.exe
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\UIDBypass.deps.json
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\UIDBypass.runtimeconfig.json
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\UIDBypass.dll
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\UIDBypass.pdb
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\Guna.UI2.dll
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\System.Management.dll
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.csproj.Up2Date
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.dll
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\refint\UIDBypass.dll
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.pdb
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.genruntimeconfig.cache
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\ref\UIDBypass.dll
+C:\Users\UnknowX\source\repos\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\UIDBypass.exe
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\UIDBypass.deps.json
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\UIDBypass.runtimeconfig.json
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\UIDBypass.dll
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\UIDBypass.pdb
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\Guna.UI2.dll
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\System.Management.dll
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.csproj.AssemblyReference.cache
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.L0gin.resources
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.MainUi.resources
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.csproj.GenerateResource.cache
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.GeneratedMSBuildEditorConfig.editorconfig
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.AssemblyInfoInputs.cache
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.AssemblyInfo.cs
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.csproj.CoreCompileInputs.cache
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.csproj.Up2Date
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.dll
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\refint\UIDBypass.dll
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.pdb
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.genruntimeconfig.cache
+J:\Source BackUp\source\repos\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\ref\UIDBypass.dll
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\UIDBypass.exe
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\UIDBypass.deps.json
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\UIDBypass.runtimeconfig.json
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\UIDBypass.dll
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\UIDBypass.pdb
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\Guna.UI2.dll
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\System.Management.dll
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.csproj.AssemblyReference.cache
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.L0gin.resources
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.MainUi.resources
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.csproj.GenerateResource.cache
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.AssemblyInfoInputs.cache
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.AssemblyInfo.cs
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.csproj.CoreCompileInputs.cache
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.csproj.Up2Date
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.dll
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\refint\UIDBypass.dll
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.pdb
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\UIDBypass.genruntimeconfig.cache
+D:\Downloads\New Esp\FFProxy - Bypass via ID c#\New folder\UIDBypass\UIDBypass\obj\Debug\net7.0-windows\ref\UIDBypass.dll
